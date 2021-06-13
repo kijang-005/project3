@@ -1,7 +1,7 @@
 #!/bin/sh
 
-apt update && apt upgrade -y
-apt install -y build-essential git libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev
+apt-get update && apt-get upgrade -y
+apt-get install -y build-essential git libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev
 git clone https://github.com/cryptozeny/cpuminer-opt-sugarchain.git
 cd cpuminer-opt-sugarchain
 chmod +x build-yespower.sh
